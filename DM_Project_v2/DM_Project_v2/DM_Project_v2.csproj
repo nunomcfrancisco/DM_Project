@@ -66,11 +66,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="content\bench.jpg" />
-    <Content Include="content\cabin.jpg" />
-    <Content Include="content\DIFFERENCEMATTER.cdr" />
-    <Content Include="content\Differencematters.ai" />
-    <Content Include="content\Differencematters.eps" />
+    <Content Include="content\dm-favicon.png" />
+    <Content Include="content\logo\logo.png" />
+    <Content Include="content\logo\test_logo.png" />
+    <Content Include="content\media\logo_facebook.png" />
+    <Content Include="content\media\logo_instagram.png" />
+    <Content Include="content\media\logo_whatsapp.png" />
+    <Content Include="content\starter\.DS_Store" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -80,22 +82,45 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="aspx\index.aspx" />
     <Content Include="aspx\main.aspx" />
-    <Content Include="content\17193856_1947030185517192_1333677347_o.jpg" />
-    <Content Include="content\17193856_1947030185517192_1333677347_o.png" />
-    <Content Include="content\bck1024x768.png" />
-    <Content Include="content\bcksample_temp.jpg" />
-    <Content Include="content\black logo.png" />
-    <Content Include="content\black white.png" />
-    <Content Include="content\Differencematters3.jpg" />
-    <Content Include="content\facebook logo.jpg" />
-    <Content Include="content\simg300x200.png" />
-    <Content Include="content\waterfall.jpg" />
+    <Content Include="content\logo\17193856_1947030185517192_1333677347_o.jpg" />
+    <Content Include="content\logo\17193856_1947030185517192_1333677347_o.png" />
+    <Content Include="content\logo\black logo.png" />
+    <Content Include="content\logo\black white.png" />
+    <Content Include="content\logo\Differencematters3.jpg" />
+    <Content Include="content\logo\facebook logo.jpg" />
+    <Content Include="content\pic01_1600x1200.jpg" />
+    <Content Include="content\pic02_1600x1200.jpg" />
+    <Content Include="content\pic03_1600x1200.jpg" />
+    <Content Include="content\pic04_1600x1200.jpg" />
+    <Content Include="content\pic05_1600x1200.jpg" />
+    <Content Include="content\pic06_1600x1200.jpg" />
+    <Content Include="content\pic07_1600x1200.jpg" />
+    <Content Include="content\pic08_1600x1200.jpg" />
+    <Content Include="content\pic09_1600x1200.jpg" />
+    <Content Include="content\pic10_1600x1200.jpg" />
+    <Content Include="content\starter\left-arrow-white.png" />
+    <Content Include="content\starter\logo.png" />
+    <Content Include="content\starter\right-arrow-white.png" />
+    <Content Include="content\starter\w3-favicon.png" />
+    <Content Include="css\jquery.bxslider.css" />
+    <Content Include="css\nav.css" />
     <Content Include="css\main.css" />
+    <Content Include="css\style.css" />
+    <Content Include="js\jquery-1.11.2.min.js" />
+    <Content Include="js\jquery.bxslider.min.js" />
     <Content Include="js\main.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="aspx\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="aspx\main.aspx.cs">
       <DependentUpon>main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -9,9 +9,10 @@
     <title></title>
 </head>
 <body>
-
     <div id="box1">
-        <h1>DIFFERENCE MATTERS</h1>
+        <div style="text-align:center;top:100px;">
+<%--            <img style="display:inline-block"src="../content/logo/17193856_1947030185517192_1333677347_o.png" />--%>
+        </div>     
     </div>
     <div id="box2">
         <h1>Quem somos? O que fazemos?</h1>
@@ -21,6 +22,9 @@
         <h1>DIFFERENCE MATTERS</h1>
     </div>
     <div id="box4">
+        <h1>DIFFERENCE MATTERS</h1>
+    </div>
+    <div id="box5">
         <h1>DIFFERENCE MATTERS</h1>
     </div>
 </body>

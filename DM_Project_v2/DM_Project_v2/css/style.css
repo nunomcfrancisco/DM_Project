@@ -1,0 +1,209 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Hind);
+@import url(https://fonts.googleapis.com/css?family=Nobile);
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#ffffff;
+    font-family:'Hind', sans-serif;
+    font-size:18px;
+    position: relative;
+}
+
+h1{
+    font-family:'Nobile', sans-serif;
+    text-align:center;
+    font-size:175%;
+    color:#4a4444;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    padding:3% 0;
+}
+
+h3 {
+    font-family: 'Nobile', sans-serif;
+    text-align: center;
+    color: #4a4444;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+}
+
+p{
+    padding: 2%;
+    color:#4a4444;
+    text-align:justify;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+#banner-wrapper{
+    max-width:1280px;
+    margin: 0 auto;
+}
+
+/*---Start Image Slider Style---*/
+.slider{
+    width:100%;
+}
+
+.slider1 img{
+    min-width:100%;
+}
+
+.slider .bx-wrapper .bx-controls-direction a{
+    outline: 0 none;
+    position: absolute;
+    text-indent: -9999px;
+    top: 40%;
+    height:71px;
+    width:40px;
+    z-index:-1;
+    transition: all 0.7s;
+}
+
+.slider .bx-wrapper:hover .bx-controls-direction a{
+    z-index:5;
+}
+
+.slider .bx-wrapper .bx-prev {
+    background: #000000 url('../content/starter/left-arrow-white.png') no-repeat 8px 13px;
+    left: 0px;
+    opacity: 0.3;
+}
+
+.slider .bx-wrapper .bx-prev:hover {
+    opacity: 0.6;
+}
+
+.slider .bx-wrapper .bx-next {
+    background: #000000 url('../content/starter/right-arrow-white.png') no-repeat 10px 12px;
+    right: 0px;
+    opacity: 0.3;
+}
+
+.slider .bx-wrapper .bx-next:hover {
+    opacity: 0.6;
+}
+/*---End Image Slider Style---*/
+
+.one-half{
+    width:44%;
+    float:left;
+    margin:2% 0 3% 4%;
+    text-align: center;
+}
+
+.one-third{
+    width: 28%;
+    float:left;
+    margin: 2% 0 3% 4%;
+    text-align:center;
+}
+
+.one-third img:hover{
+    opacity:0.5;
+    transition:all 0.7s;
+}
+
+.one-third h3{
+    margin-top:5%;
+}
+.one-third p{
+    margin-top:10%;
+}
+
+.left-col{
+    width: 60%;
+    float:left;
+    margin: 4% 0 4% 4%;
+}
+
+.sidebar{
+    width: 26%;
+    float:right;
+    margin:4% 4%;
+}
+
+.sidebar img{
+    opacity:0.7;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/*---Start Parallax Style---*/
+.parallax-1{
+    background: url("https://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%;
+    text-align:center;
+}
+
+.parallax-inner{
+    padding-top: 90px;
+    padding-bottom: 300px;
+}
+
+.parallax-2 {
+    background: url("https://www.w3newbie.com/wp-content/uploads/black-pattern.jpg") repeat fixed 100%;
+    text-align: center;
+}
+
+.parallax-inner h3, .parallax-inner p{
+    color:#f1f1f1;
+}
+/*---End Parallax Style---*/
+
+footer{
+    background:#ba5a31;
+    width:100%;
+    margin-top:5%;
+    padding: 1% 0;
+    overflow:auto;
+}
+
+footer p{
+    color:#ffffff;
+}
+
+/*---Start Media Queries---*/
+@media screen and (max-width:768px){
+    .slider .bx-wrapper .bx-controls{
+        display:none;
+    }
+    .parallax-inner{
+        display:none;
+    }
+    .one-third{
+        width:100%;
+        margin: 4% 0;
+    }
+    .one-half{
+        width:100%;
+        margin: 4% 0;
+    }
+    h1{
+        font-size:125%;
+    }
+    .left-col{
+        width:100%;
+        margin:0 0 3% 0;
+    }
+    .sidebar{
+        width:100%;
+        margin:0;
+    }
+    img{
+        width:100%;
+    }
+    h3{
+        padding-top: 3%;
+    }
+}
+/*---End Media Queries---*/
